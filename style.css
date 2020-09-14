@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url('images/bg-hero-desktop.svg');
+    background-repeat: none;
+    background-color: hsl(193, 100%, 96%);
+    background-size: cover;
+    padding-bottom: 70px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-row: auto;
+    height: 38rem;
+}
+
+.logo img {
+    width: 10rem;
+    margin-left: 80px;
+    margin-top: 1.8rem;
+}
+
+.col-1 h2 {
+    margin-left: 80px;
+    margin-top: 9rem;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.col-1 p {
+    margin-left: 80px;
+    margin-top: 2rem;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+.b-1 {
+    margin-left: 5rem;
+    margin-top: 2rem;
+    line-height: 3;
+    width: 17rem;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    box-shadow: 0 0 5px hsl(208, 11%, 55%);
+    border-radius: 22px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+}
+
+.mockup {
+    height: 27rem;
+    width: 37rem;
+    margin-top: 6rem;
+    margin-right: 4rem;
+}
+
+.b-2 {
+    float: right;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    width: 9rem;
+    height: 2rem;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: 0 0 5px hsl(208, 11%, 55%);
+}
+
+.part-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.about {
+    width: 65rem;
+    height: 22rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px hsl(208, 11%, 55%);
+    margin-top: 5rem;
+    font-family: "Open Sans";
+}
+
+.about {
+    width: 75%;
+}
+
+.about h1 {
+    font-size: 1.8rem;
+}
+
+.about p {
+    margin-top: 1rem;
+    font-family: "Open Sans";
+    color: gray;
+}
+
+.about img {
+    width: 35%;
+    margin-right: 20px;
+}
+
+.container-1,
+.container-3 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container-1,
+.container-2,
+.container-3 {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.container-1 img,
+.container-2 img,
+.container-3 img {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.details {
+    text-align: left;
+    width: 55%;
+    padding-left: 25px;
+}
+
+.part-3 {
+    font-family: "Open Sans";
+    box-sizing: border-box;
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 5px hsl(208, 11%, 55%);
+    font-size: 16px;
+    margin-top: 125px;
+}
+
+.part-3 h1 {
+    margin-top: 3rem;
+}
+
+.btn-3 {
+    width: 14rem;
+    height: 3rem;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    box-shadow: 0 0 5px hsl(208, 11%, 55%);
+    border-radius: 22px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    margin-top: 1.5rem;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 70px 0 0 70px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: "Open Sans";
+    margin-top: -45px;
+}
+
+.bottom_logo {
+    grid-row: 1/span 1;
+    grid-column: 1/span 1;
+}
+
+.contact {
+    grid-row: 2/ span 1;
+    grid-column: 1/span 1;
+}
+
+.contact img {
+    position: relative;
+    right: 30px;
+    top: 27px;
+    margin-left: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.contact li {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.links {
+    grid-row: 2/span 1;
+    grid-column: 2/ span 1;
+    margin-top: 14px;
+    justify-self: center;
+    line-height: 2.5;
+}
+
+.links2 {
+    grid-row: 2/ span 1;
+    grid-column: 3/ span 1;
+    margin-top: 14px;
+    justify-self: center;
+    line-height: 2.5;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.social_media {
+    grid-row: 2/ span 1;
+    grid-column: 4/ span 1;
+    margin-top: 15px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.social_media i {
+    width: 5%;
+    border: white 1px solid;
+    border-radius: 50%;
+    padding: 7px;
+    margin: 5px;
+}
+
+.hidebig {
+    display: none;
+}
+
+@media only screen and (max-width: 666px) {
+    .logo img {
+        width: 9rem;
+        margin-left: 20px;
+    }
+    .mockup {
+        margin-top: 20px;
+        max-width: 80%;
+        height: 20rem;
+        margin-left: 5rem;
+    }
+    .hidebig {
+        display: block;
+        margin-right: 20px;
+        margin-top: 1.5rem;
+    }
+    .hidesmall {
+        display: none;
+    }
+    .header {
+        display: flex;
+        flex-flow: column;
+        justify-items: center;
+    }
+    .col-1 h2 {
+        margin: 50px 0 0 25px;
+        text-align: center;
+    }
+    .col-1 p {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .b-1 {
+        margin-left: 8rem;
+    }
+    .cont {
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+    }
+    .about {
+        align-items: center;
+        height: 35rem;
+        width: 27rem;
+    }
+    .container-1,
+    .container-2,
+    .container-3 {
+        display: flex;
+        flex-flow: column;
+    }
+    .container-1 img,
+    .container-2 img,
+    .container-3 img {
+        width: 20rem;
+        margin-top: 20px;
+        display: block;
+    }
+    .container-1 h1,
+    .container-2 h1,
+    .container-3 h1 {
+        text-align: center;
+        font-size: 1.4rem;
+        margin: 25px 0 0 0;
+    }
+    .container-1 p,
+    .container-2 p,
+    .container-3 p {
+        text-align: center;
+    }
+    .part-3 {
+        width: 27rem;
+        margin-left: 25px;
+        z-index: 50;
+        margin-bottom: -50px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding-top: 150px;
+        padding-left: 25px;
+        flex-wrap: nowrap;
+    }
+    .social_media {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .social_media img {
+        width: 3%;
+        border: white 1px solid;
+        border-radius: 50%;
+        padding: 5px;
+        margin: 5px;
+    }
+    .header {
+        background-image: url('images/bg-hero-mobile.svg');
+        background-repeat: none;
+        background-color: hsl(193, 100%, 96%);
+        background-size: cover;
+        padding-bottom: 170px;
+    }
+}
